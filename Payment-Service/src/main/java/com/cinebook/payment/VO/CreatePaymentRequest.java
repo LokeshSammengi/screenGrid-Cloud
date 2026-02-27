@@ -1,0 +1,12 @@
+package com.cinebook.payment.VO;
+
+import lombok.Data;
+
+@Data
+public class CreatePaymentRequest {
+
+	private Long bookingId;
+	private Double amount;
+	private String paymentMethod;
+	
+}
